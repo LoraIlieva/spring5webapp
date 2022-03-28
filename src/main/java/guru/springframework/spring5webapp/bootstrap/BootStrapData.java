@@ -37,7 +37,7 @@ public class BootStrapData implements CommandLineRunner {
         publisherRepository.save(publisher);
         System.out.println("Number of Publishers: " + publisherRepository.count());
 
-        //test
+
         Author eric = new Author("Eric", "Evans");
         Book ddd = new Book("Domain Driven Design", "123123");
         eric.getBooks().add(ddd);
